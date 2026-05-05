@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="image.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <label class="switch">
+    <input type="checkbox" id="themeToggle" onclick="toggleDarkMode()">
+    <span class="slider"></span>
+    </label>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <div class="layout">
+        <!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <div class="profile-sidebar">
+                <img src="photo.jpg" alt="My Photo">
+        
+            </div>
+            <h2>Thwe Zin Oo</h2>
+            <a href="#about">About</a>
+            <hr>
+            <a href="#skills">Skills</a>
+            <hr>
+            <a href="#projects">Projects</a>
+            <hr>
+            <a href="#contact">Contact</a>
+            <hr>
+        </div>
+
+    <!-- Main Content -->
+    <div class="main">
+
+        <section id="about">
+            <h1>Thwe Zin Oo</h1>
+            
+
+            <h2>About Me</h2>
+            <p>
+                I am a passionate web developer skilled in HTML, CSS, JavaScript and Java.
+                I am a fourth-year Computer Science student at the University of Computer Studies,
+                 Mandalay (UCS-MDY). 
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>Responsive Design</li>
+                <li>DOM Manipulation</li>
+                <li>LocalStorage</li>
+            </ul>
+            <h2>Soft skills</h2>
+            <ul class="skills">
+                <li>Communication</li>
+                <li>Teamwork</li>
+                <li>Problem Solving</li>
+                <li>Time Management</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project-card">
+                <h3>🎟️ Ticket Booking System</h3>
+                <img src="project1.png" class="project-img">
+
+                <p>Booking system with CRUD, dashboard, and print feature.</p>
+
+                <div class="project-buttons">
+                    <a href="https://dufrigr.github.io/ticket-booking-system/" target="_blank">
+                        <button>Live Demo</button>
+                    </a>
+
+                    <a href="https://github.com/Dufrigr/ticket-booking-system" target="_blank">
+                        <button class="secondary">View Code</button>
+                    </a>
+                </div>
+            </div>
+            <br>
+            <div class="project-card">
+                <h3>🎟️ Image Mapping</h3>
+                <img src="project2.png" class="project-img">
+
+                <p>This project shows the usage of image mapping.</p>
+
+                <div class="project-buttons">
+                    <a href="https://dufrigr.github.io/Image-Mapping/" target="_blank">
+                        <button>Live Demo</button>
+                    </a>
+
+                    <a href="https://github.com/Dufrigr/Image-Mapping" target="_blank">
+                        <button class="secondary">View Code</button>
+                    </a>
+                </div>
+            </div>
+            <br>
+            <div class="project-card">
+                <h3>🎟️ Input Validation</h3>
+                <img src="project3.png" class="project-img">
+
+                <p>This project shows how to check input whether it is valid or not.</p>
+
+                <div class="project-buttons">
+                    <a href="https://dufrigr.github.io/Input-validation/" target="_blank">
+                        <button>Live Demo</button>
+                    </a>
+
+                    <a href="https://github.com/Dufrigr/Input-validation" target="_blank">
+                        <button class="secondary">View Code</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: dufrigr28@gmail.com</p>
+            <p>Phone no: 09755070166</p>
+            <p>GitHub: <a href="https://github.com/dufrigr">https://github.com/dufrigr</a></p>
+        </section>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
